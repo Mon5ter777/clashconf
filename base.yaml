@@ -169,15 +169,15 @@ dns:
     - https://1.12.12.12/dns-query
     - https://120.53.53.53/dns-query
   proxy-server-nameserver:
-    - https://pdns.itxe.net/dns-query
-    - https://doh.apad.pro/cn-query
-    - https://cn-east.iqiqzz.com/dns-query
-    - https://cn-south.iqiqzz.com/dns-query
+    - https://dns.google.com/dns-query
+    - https://1dot1dot1dot1.cloudflare-dns.com/
+    - https://doh.opendns.com/dns-query
+    - https://8.8.8.8/dns-query
   fallback:
-    - https://pdns.itxe.net/dns-query
-    - https://doh.apad.pro/cn-query
-    - https://cn-east.iqiqzz.com/dns-query
-    - https://cn-south.iqiqzz.com/dns-query
+    - https://dns.google.com/dns-query
+    - https://1dot1dot1dot1.cloudflare-dns.com/
+    - https://doh.opendns.com/dns-query
+    - https://8.8.8.8/dns-query
   nameserver-policy:
     "+.tencent*": "119.29.29.29"
     "+.tencent*.*": "119.29.29.29"
