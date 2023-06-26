@@ -76,7 +76,7 @@ tun:
   auto-route: true
   auto-detect-interface: true
 cfw-latency-timeout: 1200
-cfw-latency-url: http://www.google.com/generate_204
+cfw-latency-url: https://cp.cloudflare.com/generate_204
 cfw-conn-break-strategy:
   proxy: chain
   profile: true
