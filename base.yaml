@@ -16,9 +16,7 @@ unified-delay: true
 udp: true
 enable-process: true
 geox-url:
-  mmdb: "https://raw.iqiq.io/misakaio/chnroutes2/master/chnroutes.mmdb"
-  geoip: "https://raw.iqiq.io/Loyalsoldier/v2ray-rules-dat/release/geoip.dat"
-  geosite: "https://raw.iqiq.io/Loyalsoldier/v2ray-rules-dat/release/geosite.dat"
+  mmdb: "https://raw.githubusercontent.com/alecthw/mmdb_china_ip_list/release/Country.mmdb"
 iptables:
   enable: true
 log-level: info
