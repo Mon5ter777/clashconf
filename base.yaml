@@ -16,7 +16,7 @@ unified-delay: true
 udp: true
 enable-process: true
 geox-url:
-  mmdb: "https://raw.githubusercontent.com/alecthw/mmdb_china_ip_list/release/Country.mmdb"
+  mmdb: "https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb"
 iptables:
   enable: true
 log-level: info
